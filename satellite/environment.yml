@@ -1,0 +1,24 @@
+name: cwcc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cartopy
+  - netCDF4
+  - h5netcdf=1.3.0
+  - satpy=0.51.0
+  - pyhdf
+  - h5py
+  - python-geotiepoints
+  - pip
+  - pip:
+    - cartopy
+    - jupyter
+    - nbformat
+    - netCDF4
+    - h5netcdf==1.3.0
+    - satpy==0.51.0
+    - pyhdf
+    - h5py
+    - python-geotiepoints
